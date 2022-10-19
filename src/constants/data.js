@@ -79,4 +79,6 @@ const awards = [
   },
 ];
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { wines, cocktails, awards };
+

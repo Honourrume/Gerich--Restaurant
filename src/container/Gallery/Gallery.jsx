@@ -31,8 +31,7 @@ const Gallery = () =>{
         <SubHeading title='Instagram'/>
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
         <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aperiam illo unde quibusdam sapiente quis tempora voluptatem explicabo </p>
-      <button type='button' className='custom_button'>View More</button>
-
+        <button className='custom__button' style={{ marginTop: '2rem'}}>Visit Us</button>
       </div>
       <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
